@@ -4,7 +4,7 @@
   <title><![CDATA[Geummo's Blog]]></title>
   <link href="http://geummo.github.com/atom.xml" rel="self"/>
   <link href="http://geummo.github.com/"/>
-  <updated>2012-11-01T03:44:16+09:00</updated>
+  <updated>2012-11-02T04:08:46+09:00</updated>
   <id>http://geummo.github.com/</id>
   <author>
     <name><![CDATA[I Geummo]]></name>
@@ -12,5 +12,40 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[How to get tmux to show Hangul properly in OS X]]></title>
+    <link href="http://geummo.github.com/blog/2012/11/02/how-to-get-tmux-to-show-hangul-properly-in-os-x/"/>
+    <updated>2012-11-02T02:43:00+09:00</updated>
+    <id>http://geummo.github.com/blog/2012/11/02/how-to-get-tmux-to-show-hangul-properly-in-os-x</id>
+    <content type="html"><![CDATA[<p>주로 회사 업무 상 영어로 개발작업이 이뤄지다보니 느끼지 못했는데</p>
+
+<p>tmux에서 한글로 표시된 파일이나 디렉터리를 보면 아래 그림처럼 초성만 보이는 것을 볼 수 있습니다.</p>
+
+<p><img src="http://geummo.github.com/images/2012/11/02/tmux_abnormal.png"></p>
+
+<p>이런..
+어쩌란 말이냐.</p>
+
+<p>몇시간 동안 구글링으로 찾아보니 일본쪽에서 이미 패치를 만들었더군요.</p>
+
+<p>패치가 적용된 홈브루 포뮬러를 가진 대체 소스에 &#8220;탭&#8221;합니다.</p>
+
+<pre><code>brew tap waltarix/customs
+</code></pre>
+
+<p>설치된 tmux를 일단 제거합니다.</p>
+
+<pre><code>brew uninstall tmux
+</code></pre>
+
+<p>패치가 적용된 tmux를 다시 설치합니다.</p>
+
+<pre><code>brew install waltarix/customs/tmux
+</code></pre>
+
+<p><img src="http://geummo.github.com/images/2012/11/02/tmux_patched.png"></p>
+]]></content>
+  </entry>
   
 </feed>
