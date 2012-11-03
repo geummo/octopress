@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Hangeul | Geummo's Blog]]></title>
   <link href="http://geummo.github.com/blog/categories/hangeul/atom.xml" rel="self"/>
   <link href="http://geummo.github.com/"/>
-  <updated>2012-11-04T01:15:45+09:00</updated>
+  <updated>2012-11-04T01:18:49+09:00</updated>
   <id>http://geummo.github.com/</id>
   <author>
     <name><![CDATA[I Geummo]]></name>
@@ -23,8 +23,7 @@
 
 <p>일단 tmux에서 한글로 된 파일이나 디렉터리를 보면 아래 그림처럼 초성만 보입니다.</p>
 
-<p><img src="/images/2012/02/tmux_abnormal.png" alt="초성만 보이는 tmux 화면" />
-<img src="/images/2012/11/02/tmux_abnormal.png"></p>
+<p><img src="/images/2012/11/02/tmux_abnormal.png"></p>
 
 <p>헐;;;</p>
 
@@ -32,17 +31,17 @@
 
 <h2>tmux에서 한글 제대로 보기</h2>
 
-<ul>
-<li><p>패치가 적용된 홈브루 포뮬러를 가지고 있는 대체소스에 "탭 (Tap)" 합니다.</p>
+<p>패치가 적용된 홈브루 포뮬러를 가지고 있는 대체소스에 "탭 (Tap)" 합니다.</p>
 
-<p>  brew tap waltarix/customs</p></li>
-<li><p>설치된 tmux를 일단 제거합니다.</p>
+<pre><code>brew tap waltarix/customs
+</code></pre>
 
-<p>  brew uninstall tmux</p></li>
-</ul>
+<p>설치된 tmux를 일단 제거합니다.</p>
 
+<pre><code>brew uninstall tmux
+</code></pre>
 
-<p>-패치가 적용된 tmux를 다시 설치합니다.</p>
+<p>패치가 적용된 tmux를 다시 설치합니다.</p>
 
 <pre><code>brew install waltarix/customs/tmux
 </code></pre>
