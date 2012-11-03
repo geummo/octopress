@@ -9,8 +9,8 @@
   <meta name="author" content="I Geummo">
 
   
-  <meta name="description" content="주로 회사 업무 상 영어로 개발작업이 이뤄지다보니 느끼지 못했는데 tmux에서 한글로 표시된 파일이나 디렉터리를 보면 아래 그림처럼 초성만 보이는 것을 볼 수 있습니다. 이런..
-어쩌란 말이냐. 몇시간 동안 구글링으로 찾아보니 일본쪽에서 이미 패치를 만들었더군요. &hellip;">
+  <meta name="description" content="요즘 OS X+iTerm2+tmux+Vim 조합으로 개발환경을 꾸미고 있습니다.
+역시나 한글환경에는 조금 문제가 있네요. 일단 tmux에서 한글로 된 파일이나 디렉터리를 보면 아래 그림처럼 초성만 보입니다. 헐;;; 다행히도 패치를 적용하면 한글을 제대로 볼 수 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -71,7 +71,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2012/11/02/how-to-get-tmux-to-show-hangul-properly-in-os-x/">How to Get Tmux to Show Hangul Properly in OS X</a></h1>
+      <h1 class="entry-title"><a href="/blog/2012/11/02/how-to-get-tmux-to-show-hangul-properly-in-os-x/">(MAC) OS X의 Tmux에서 한글 제대로 보기</a></h1>
     
     
       <p class="meta">
@@ -94,31 +94,36 @@
   </header>
 
 
-  <div class="entry-content"><p>주로 회사 업무 상 영어로 개발작업이 이뤄지다보니 느끼지 못했는데</p>
+  <div class="entry-content"><p>요즘 <strong>OS X+iTerm2+tmux+Vim</strong> 조합으로 개발환경을 꾸미고 있습니다.
+역시나 한글환경에는 조금 문제가 있네요.</p>
 
-<p>tmux에서 한글로 표시된 파일이나 디렉터리를 보면 아래 그림처럼 초성만 보이는 것을 볼 수 있습니다.</p>
+<p>일단 tmux에서 한글로 된 파일이나 디렉터리를 보면 아래 그림처럼 초성만 보입니다.</p>
 
-<p><img src="/images/2012/11/02/tmux_abnormal.png"></p>
+<p><img src="/images/2012/02/tmux_abnormal.png" alt="초성만 보이는 tmux 화면" />
+<img src="/images/2012/11/02/tmux_abnormal.png"></p>
 
-<p>이런..
-어쩌란 말이냐.</p>
+<p>헐;;;</p>
 
-<p>몇시간 동안 구글링으로 찾아보니 일본쪽에서 이미 패치를 만들었더군요.</p>
+<p>다행히도 패치를 적용하면 한글을 제대로 볼 수 있습니다.</p>
 
-<p>패치가 적용된 홈브루 포뮬러를 가진 대체 소스에 &#8220;탭&#8221;합니다.</p>
+<h2>tmux에서 한글 제대로 보기</h2>
 
-<pre><code>brew tap waltarix/customs
-</code></pre>
+<ul>
+<li><p>패치가 적용된 홈브루 포뮬러를 가지고 있는 대체소스에 &#8220;탭 (Tap)&#8221; 합니다.</p>
 
-<p>설치된 tmux를 일단 제거합니다.</p>
+<p>  brew tap waltarix/customs</p></li>
+<li><p>설치된 tmux를 일단 제거합니다.</p>
 
-<pre><code>brew uninstall tmux
-</code></pre>
+<p>  brew uninstall tmux</p></li>
+</ul>
 
-<p>패치가 적용된 tmux를 다시 설치합니다.</p>
+
+<p>-패치가 적용된 tmux를 다시 설치합니다.</p>
 
 <pre><code>brew install waltarix/customs/tmux
 </code></pre>
+
+<p>다시 보면 아래 그림처럼 한글이 제대로 표시되는걸 볼 수 있습니다.</p>
 
 <p><img src="/images/2012/11/02/tmux_patched.png"></p>
 </div>
@@ -141,7 +146,7 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2012/11/02/how-to-get-tmux-to-show-hangul-properly-in-os-x/">How to get tmux to show Hangul properly in OS X</a>
+        <a href="/blog/2012/11/02/how-to-get-tmux-to-show-hangul-properly-in-os-x/">(MAC) OS X의 tmux에서 한글 제대로 보기</a>
       </li>
     
   </ul>
