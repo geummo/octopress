@@ -10,7 +10,7 @@
 
   
   <meta name="description" content="요즘 OS X+iTerm2+tmux+Vim 조합으로 개발환경을 꾸미고 있습니다.
-역시나 한글환경에는 조금 문제가 있네요. 일단 tmux에서 한글로 된 파일이나 디렉터리를 보면 아래 그림처럼 초성만 보입니다. 헐;;; 다행히도 패치를 적용하면 한글을 제대로 볼 수 &hellip;">
+하지만 역시 한글환경에는 조금 문제가 있네요. 일단 tmux에서 한글로 된 파일이나 디렉터리를 보면 아래 그림처럼 초성만 보입니다. 헐;;; 다행히도 패치를 적용하면 한글을 제대로 볼 수 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://geummo.github.com/blog/2012/11/02/how-to-get-tmux-to-show-hangul-properly-in-os-x/">
+  <link rel="canonical" href="http://geummo.github.com/blog/2012/11/02/how-to-get-tmux-to-display-hangeul-properly-in-os-x/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -38,7 +38,7 @@
   <header role="banner"><hgroup>
   <h1><a href="/">Geummo's Blog</a></h1>
   
-    <h2>A blogging framework for hackers.</h2>
+    <h2>Just write a little bit in everyday...</h2>
   
 </hgroup>
 
@@ -92,24 +92,24 @@
 
 
 <div class="entry-content"><p>요즘 <strong>OS X+iTerm2+tmux+Vim</strong> 조합으로 개발환경을 꾸미고 있습니다.
-역시나 한글환경에는 조금 문제가 있네요.</p>
+하지만 역시 한글환경에는 조금 문제가 있네요.</p>
 
 <p>일단 tmux에서 한글로 된 파일이나 디렉터리를 보면 아래 그림처럼 초성만 보입니다.</p>
 
-<p><img src="/images/2012/11/02/tmux_abnormal.png"></p>
+<p><img src="/images/2012/11/02/tmux_abnormal.png" /></p>
 
 <p>헐;;;</p>
 
 <p>다행히도 패치를 적용하면 한글을 제대로 볼 수 있습니다.</p>
 
-<h2>tmux에서 한글 제대로 보기</h2>
+<h2 id="tmux---">tmux에서 한글 제대로 보기</h2>
 
-<p>패치가 적용된 홈브루 포뮬러를 가지고 있는 대체소스에 &#8220;탭 (Tap)&#8221; 합니다.</p>
+<p>패치가 적용된 홈브루 포뮬러 (Homebrew Formula)를 가지고 있는 대체소스에 “탭 (<code>brew tap</code>) 합니다.</p>
 
 <pre><code>brew tap waltarix/customs
 </code></pre>
 
-<p>설치된 tmux를 일단 제거합니다.</p>
+<p>설치된 <code>tmux</code>를 일단 제거합니다.</p>
 
 <pre><code>brew uninstall tmux
 </code></pre>
@@ -121,7 +121,7 @@
 
 <p>다시 보면 아래 그림처럼 한글이 제대로 표시되는걸 볼 수 있습니다.</p>
 
-<p><img src="/images/2012/11/02/tmux_patched.png"></p>
+<p><img src="/images/2012/11/02/tmux_patched.png" /></p>
 </div>
 
 
@@ -158,7 +158,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://geummo.github.com/blog/2012/11/02/how-to-get-tmux-to-show-hangul-properly-in-os-x/" data-via="" data-counturl="http://geummo.github.com/blog/2012/11/02/how-to-get-tmux-to-show-hangul-properly-in-os-x/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://geummo.github.com/blog/2012/11/02/how-to-get-tmux-to-display-hangeul-properly-in-os-x/" data-via="" data-counturl="http://geummo.github.com/blog/2012/11/02/how-to-get-tmux-to-display-hangeul-properly-in-os-x/" >Tweet</a>
   
   
   
@@ -181,7 +181,7 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2012/11/02/how-to-get-tmux-to-show-hangul-properly-in-os-x/">(MAC) OS X의 tmux에서 한글 제대로 보기</a>
+        <a href="/blog/2012/11/02/how-to-get-tmux-to-display-hangeul-properly-in-os-x/">(MAC) OS X의 tmux에서 한글 제대로 보기</a>
       </li>
     
   </ul>
