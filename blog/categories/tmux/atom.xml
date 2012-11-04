@@ -4,7 +4,7 @@
   <title><![CDATA[Category: tmux | Geummo's Blog]]></title>
   <link href="http://geummo.github.com/blog/categories/tmux/atom.xml" rel="self"/>
   <link href="http://geummo.github.com/"/>
-  <updated>2012-11-04T13:52:03+09:00</updated>
+  <updated>2012-11-04T14:04:58+09:00</updated>
   <id>http://geummo.github.com/</id>
   <author>
     <name><![CDATA[I Geummo]]></name>
@@ -18,9 +18,7 @@
     <link href="http://geummo.github.com/blog/2012/11/02/how-to-get-tmux-to-display-hangeul-properly-in-os-x/"/>
     <updated>2012-11-02T02:43:00+09:00</updated>
     <id>http://geummo.github.com/blog/2012/11/02/how-to-get-tmux-to-display-hangeul-properly-in-os-x</id>
-    <content type="html"><![CDATA[<h1 id="section">#</h1>
-
-<p>요즘 <strong>OS X+iTerm2+tmux+Vim</strong> 조합으로 개발환경을 꾸미고 있습니다.
+    <content type="html"><![CDATA[<p>요즘 <strong>OS X + iTerm2 + tmux + Vim</strong> 조합으로 개발환경을 꾸미고 있습니다.
 하지만 역시 한글환경에는 조금 문제가 있네요.</p>
 
 <p>일단 tmux에서 한글로 된 파일이나 디렉터리를 보면 아래 그림처럼 초성만 보입니다.</p>
